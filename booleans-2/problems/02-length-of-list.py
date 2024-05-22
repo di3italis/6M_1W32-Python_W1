@@ -2,7 +2,8 @@
 # the given value; otherwise return `False`.
 
 # Write your function here.
-
+def length_list(arr, num):
+    return len(arr) == num
 
 print(length_list([], 1))   #>  False
 print(length_list([], 0))   #>  True
