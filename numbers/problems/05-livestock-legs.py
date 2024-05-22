@@ -7,6 +7,8 @@
 
 # Write your function here.
 # Parameters are in this order: chickens, cows, pigs
+def how_many_legs(chx, bov, pig):
+    return chx*2 + bov*4 + pig*4 
 
 
 print(how_many_legs(2, 3, 5))    #> 36

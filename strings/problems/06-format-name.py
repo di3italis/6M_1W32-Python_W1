@@ -4,6 +4,8 @@
 # statement.
 
 # Write your function here.
+def format_name(a, b):
+    return "Hi, my name is " + a + " " + b
 
 
 print(format_name("Alex", "Ambrose"))  #> Hi, my name is Alex Ambrose

@@ -3,7 +3,8 @@
 
 # Write your function here.
 def And(a, b):
-    if a and b return true
+    # if a and b return true
+    return a and b
 
 
 print(And(True, False))    #> False

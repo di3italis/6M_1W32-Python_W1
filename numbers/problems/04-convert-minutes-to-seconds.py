@@ -3,6 +3,7 @@
 # body of your function.
 
 # Write your function here
+def min2sec(num): return num*60
 
 
 print(min2sec(5)) #> 300
